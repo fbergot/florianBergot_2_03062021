@@ -1,0 +1,13 @@
+:root {
+    --darkBlue : #0065FC;
+    --clearBlue: #DEEBFF;
+    --greyBackgd : #F2F2F2;
+    --fontRlw : 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--fontRlw);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
