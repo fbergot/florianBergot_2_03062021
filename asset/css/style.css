@@ -5,11 +5,15 @@
     --fontRlw : 'Raleway', sans-serif;
 }
 
-body {
-    font-family: var(--fontRlw);
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--fontRlw);     
 }
 
 a {
@@ -23,7 +27,7 @@ a {
     display: grid;
     align-items: center;
     grid-template-columns: auto 1fr auto  auto;
-    grid-template-areas: "img  nav link";
+    grid-template-areas: "img img  nav link";
     max-width: 1500px;
     margin: auto;
 }
@@ -73,6 +77,7 @@ main {
     font-size: 0.9rem;
 }
 
+/* searchDivInput */
 .searchDivInput {
     margin-top: 1.3rem;
 }
@@ -111,7 +116,9 @@ main {
 .searchButton:hover{
     cursor: pointer;
 }
-/* filter div */
+
+/* searchFilterDiv */
+
 .searchFilterDiv {
     margin-top: 1.3rem;
     display: flex;
