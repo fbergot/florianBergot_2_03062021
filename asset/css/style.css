@@ -56,19 +56,32 @@ a {
 }
 
 .navbarHeader a {
-    padding: 2em 2.5em;
-}
-.navbarHeader a:hover {
-    border-top: 1px solid var(--darkBlue);
+    padding: 1.5em 2.5em;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid;
 }
 
-.navbarHeader a[data-select=true] {
+.navbarHeader a:hover {
+    transition: color 0.3s;
+    transition: border-top 0.5s;
+    border-top: 3px solid var(--darkBlue);
+    color: var(--darkBlue)
+}
+.navbarHeader a[data-active="true"] {
+    border-top: 3px solid var(--darkBlue);
     color: var(--darkBlue);
 
 }
+
 .register {
     color: var(--darkBlue);
     font-weight: bold;
+}
+
+.register:hover {
+    transition: color .3s;
+    color: #043681;
+
 }
 
 /*-------------------------main------------------------- */
@@ -125,6 +138,8 @@ main {
 
 .searchButton:hover{
     cursor: pointer;
+    background-color: #043681;
+    transition: background-color.3s;
 }
 
 /* searchFilterDiv */
@@ -166,6 +181,12 @@ main {
     background-color: var(--clearBlue);
     border-radius: 2rem;
     text-align: center;
+    
+}
+
+.searchBubble:hover {
+    background-color: #9ebbe6;
+    transition: background-color .4s;
 }
 
 
@@ -236,7 +257,7 @@ main {
 }
 
 .hostingTitle {
-    padding: 2em 0 1em 0;
+    padding: 2em .5em 1em .5em;
     margin-left: 2.2em;
     font-size: 1.2rem;
     font-weight: bold;
@@ -247,8 +268,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 1.1rem;
-    row-gap: 1.3rem;
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
 }
 
 .hostingCard {
@@ -258,7 +279,8 @@ main {
     flex-direction: column;
     border-radius: 1em;
     background-color: #FFF;
-    z-index: 3;   
+    z-index: 3; 
+    box-shadow: 5px 5px 5px rgb(185, 183, 183); 
 }
 
 .hostingPicture {
@@ -298,11 +320,12 @@ main {
     grid-area: popular;
     padding: 0 2rem;
     max-width: 1500px;
+    margin-left: 20px;
 }
 
 .popularTitle {
     font-size: 1.2rem;
-    padding: 2em 0 1em 0;
+    padding: 2em .5em 1em .5em;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -321,7 +344,8 @@ main {
 .popularContainer {
    display: flex;
    flex-direction: column;
-   row-gap: 1.3rem;
+   row-gap: 1.8rem;
+   padding-bottom: 2em;
    
 }
 
@@ -331,7 +355,7 @@ main {
     display: flex;
     padding: .5rem;
     background-color: #FFF;
-    
+    box-shadow: 5px 5px 5px rgb(185, 183, 183);    
 }
 
 .popularLinkImg {
@@ -341,7 +365,7 @@ main {
 .popularImg {
     border-radius: 1rem 0 0 1rem;
     width: 180px;
-    height: 170px;
+    height: 150px;
 }
 
 .popularCardText {
@@ -368,13 +392,16 @@ main {
 
 .activitySection {
     grid-area: activity;
-    margin-top: 1em;
+    margin-top: 50px;
     width: 100%;
     border: 1px solid yellow;
     max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .activityTitle {
+    padding: 1em 1em;
     font-weight: bold;
     font-size: 1.2em;
     font-family: var(--fontRlw);
@@ -385,12 +412,18 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin: auto;
     column-gap: 30px;
+    
 }
 
 .activityContainer article {
     border: 1px solid blueviolet;
     padding: 10px;
+    border-radius: 1rem 1rem 0 0 ;
+    box-shadow: 5px 5px 5px rgb(185, 183, 183); 
+
+
 }
 
 .activityCard_1 {
@@ -399,7 +432,8 @@ main {
 
 .activityImg_1 {
     width: 300px;
-    height: 400px;
+    height: 360px;
+    border-radius: 1rem 1rem 0 0 ; 
 }
 
 .activityContainer-Img2-Img3 {
@@ -408,20 +442,21 @@ main {
     justify-content: space-between;
 }
 .activityCard_2 {
-   
 
 }
 .activityImg_2 {
+    border-radius: 1rem 1rem 0 0 ; 
      width: 300px;
-     height: 150px;
+     height: 130px;
 }
 
 .activityCard_3 {
 
 }
 .activityImg_3 {
+    border-radius: 1rem 1rem 0 0 ; 
      width: 300px;
-     height: 150px;
+     height: 130px;
 }
 
 .activityCard_4 {
@@ -429,8 +464,9 @@ main {
 }
 
 .activityImg_4 {
+    border-radius: 1rem 1rem 0 0 ; 
      width: 300px;
-     height: 400px;
+     height: 360px;
 }
 
 
@@ -444,15 +480,55 @@ main {
 }
 
 .activityImg_5 {
+    border-radius: 1rem 1rem 0 0 ; 
      width: 300px;
-     height: 150px;
+     height: 130px;
 }
 
 .activityCard_6 {
 
+
 }
 
 .activityImg_6 {
+    border-radius: 1rem 1rem 0 0 ; 
      width: 300px;
-     height: 150px;
+     height: 130px;
+}
+
+.activityText {
+    font-weight: bold;
+    margin: 1em;
+}
+/* footer */
+
+.footer {
+    max-width: 1500px;
+    margin:auto;
+    border-bottom: 2px solid grey;
+    background-color: var(--greyBackgd);
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+.footerContainer {
+    display: flex;
+    margin: 1rem;
+
+}
+
+.footerBloc {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTitle {
+    font-weight: bold;
+    padding: .5em;
+}
+
+.footerLink {
+    padding-top: .5em;
+    padding-left: .5em;
 }
