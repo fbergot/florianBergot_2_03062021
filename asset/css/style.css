@@ -92,13 +92,13 @@ main {
 }
 /* section search */
 .searchHeaderTitle {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 700;
     padding: 0.5em 0;
 }
 
 .searchHeaderDescr {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 /* searchDivInput */
@@ -125,13 +125,13 @@ main {
     border-right: none;
     border-left: none;
     border-color: var(--greyBackgd);
-    font-family: inherit;  
+    font-family: var(--fontRlw);
+    font-size: 1rem;  
 }
 
 
  .searchInput::placeholder {
-    font-family: var(--fontRlw);
-    font-size: 0.9rem;
+    
     color: #00000069;
 
 }
@@ -162,7 +162,7 @@ main {
 }
 
 .searchFilterP {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -203,7 +203,7 @@ main {
 
 .searchP {
     display: inline;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0;
     font-weight: bold;
     margin-left: 2.6em;
@@ -271,8 +271,8 @@ main {
 .hostingTitle {
     padding: 2em .5em 1em .5em;
     margin-left: 2.2em;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.30rem;
+    font-weight: 700;
 }
 
 .hostingCardContainer {
@@ -312,7 +312,8 @@ main {
 }
 
 .hostingCardTitle {
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 700;
     padding: 0.3em 0.3em;
 }
 
@@ -325,6 +326,8 @@ main {
 }
 
 .hostingLinkDisplayMore {
+    font-size: 0.9rem;
+    font-weight: 500;
     margin: 1.2em 0 0 2.2em;
     padding: 1em;
 }
@@ -349,9 +352,9 @@ main {
 }
 
 .popularTitle {
-    font-size: 1.2rem;
     padding: 2em 0 1em 0;
-    font-weight: bold;
+    font-size: 1.30rem;
+    font-weight: 700;
     float: left;
 }
 
@@ -413,7 +416,8 @@ main {
 
 .popularCardTitle {
     padding: .3em .8em;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .popularCardNight {
@@ -438,8 +442,8 @@ main {
 
 .activityTitle {
     padding: 1em 1em;
-    font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.30rem;
+    font-weight: 700;
     font-family: var(--fontRlw);
 }
 
@@ -531,9 +535,11 @@ main {
 }
 
 .activityText {
-    font-weight: bold;
-    margin: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1em 0.5em; 
 }
+
 /* footer */
 
 .footer {
