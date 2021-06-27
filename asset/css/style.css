@@ -265,22 +265,25 @@ main {
     grid-area: hosting;
     border-radius: 2%;
     border: 1px solid green;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
  
 }
 
 .hostingTitle {
     padding: 2em .5em 1em .5em;
-    margin-left: 2.2em;
     font-size: 1.30rem;
     font-weight: 800;
+    float: left;
 }
 
 .hostingCardContainer {
     padding: 0.1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 1.8rem;
+    justify-content: space-between;
+    /* column-gap: 1.8rem; */
     row-gap: 1.8rem;
     border: 1px solid blue;
 }
@@ -289,18 +292,22 @@ main {
     padding: 0.5em;
     border: 1px solid red;
     border-radius: 1em;
+    max-width: 350px;
+    min-width: 280px;
     background-color: #FFF;
     z-index: 3; 
     box-shadow: 5px 5px 5px rgb(185, 183, 183); 
 }
+
 .hostingLinkCard {
     display: flex;
     flex-direction: column;
+    min-width: 100%;
 }
 
 .hostingImgContainer {
     border-radius: 1rem 1rem 0 0;
-    width: 250px;
+    min-width: 100%;
     height: 110px;
 }
 
@@ -328,8 +335,8 @@ main {
 .hostingLinkDisplayMore {
     font-size: 0.9rem;
     font-weight: 500;
-    margin: 1.2em 0 0 2.2em;
-    padding: 1em;
+    margin: 1.2em 0 0 0;
+    padding-bottom: 2rem;
 }
 
 .hostingLink {
@@ -377,20 +384,23 @@ main {
    align-items: center;
    row-gap: 1.8rem;
    border: 1px solid red;
+   min-width: 85%;
   
 }
 
 .popularCard {
     border-radius: 1rem;
     border: 7px solid #FFF;
-    max-width: 400px;
-    min-width: 400px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 300px;
     background-color: #FFF;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);    
 }
 
 .popularLinkImg {
     display: flex;
+    width: 100%;
 } 
 
 .popularImgContainer {
@@ -462,16 +472,18 @@ main {
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
 
 }
-
+.activityLinkImg {
+    width: 100%;
+    height: auto;
+}
 .activityImgContainer {
     width: 100%;
     height: auto;
 }
 
 .activityCard_1 {
-    max-width: 25%;
-    min-width: 330px;
-
+    max-width: 22%;
+    min-width: 340px;
     border: 3px solid rgba(52, 163, 207, 0.842);
 }
 
@@ -487,7 +499,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     max-width: 25%;
-    min-width: 330px;
+    min-width: 340px;
 
 }
 
@@ -513,8 +525,8 @@ main {
 }
 
 .activityCard_4 {
-    max-width: 25%;
-    min-width: 330px;
+    max-width: 22%;
+    min-width: 340px;
 
 }
 
@@ -531,7 +543,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     max-width: 25%;
-    min-width: 330px;
+    min-width: 340px;
 }
 .activityCard_5 {
 
