@@ -14,8 +14,11 @@
 
 
 body {
-    font-family: var(--fontRlw);     
+    font-family: var(--fontRlw);
+        
 }
+
+
 
 /* stars colors */
 i[data-selected="true"] {
@@ -39,6 +42,7 @@ a {
     grid-template-columns: auto 1fr auto  auto;
     grid-template-areas: "img img nav link";
     max-width: 1500px;
+    width: 88%;
     margin: auto;
 }
 
@@ -89,6 +93,7 @@ a {
 main {
     max-width: 1500px;
     margin: auto;
+    width: 88%;
 }
 /* section search */
 .searchHeaderTitle {
@@ -111,6 +116,7 @@ main {
     border-radius: 1rem 0 0 1rem;
     background-color: var(--greyBackgd);
     text-align: center;
+    border: 1px solid var(--greyBackgd);
 }
 .searchIcone{
    font-size: 1rem;
@@ -130,12 +136,6 @@ main {
 }
 
 
- .searchInput::placeholder {
-    
-    color: #00000069;
-
-}
-
 .searchButton {
     padding: 0.8rem 1rem;
     border-radius: 0 1rem 1rem 0;
@@ -145,6 +145,7 @@ main {
     font-family: inherit;
     font-size: 1rem;
     border: none;
+    margin-left: -5px;
 }
 
 .searchButton:hover{
@@ -298,6 +299,11 @@ main {
     box-shadow: 5px 5px 5px rgb(185, 183, 183); 
 }
 
+.hostingCard:hover {
+      transform: scale(1.02);
+      transition: transform .3s;
+}
+
 .hostingLinkCard {
     display: flex;
     flex-direction: column;
@@ -397,6 +403,11 @@ main {
     box-shadow: 5px 5px 5px rgb(185, 183, 183);    
 }
 
+.popularCard:hover {
+      transform: scale(1.02);
+      transition: transform .3s;
+}
+
 .popularLinkImg {
     display: flex;
     width: 100%;
@@ -471,6 +482,12 @@ main {
     box-shadow: 5px 5px 5px rgb(185, 183, 183);
 
 }
+
+.activityContainer article:hover {
+      transform: scale(1.02);
+      transition: transform .3s;
+}
+
 .activityLinkImg {
     width: 100%;
     height: auto;
