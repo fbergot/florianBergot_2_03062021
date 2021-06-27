@@ -264,7 +264,7 @@ main {
     background-color: var(--greyBackgd);
     grid-area: hosting;
     border-radius: 2%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -285,12 +285,12 @@ main {
     justify-content: space-between;
     /* column-gap: 1.8rem; */
     row-gap: 1.8rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .hostingCard {
     padding: 0.5em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 1em;
     max-width: 350px;
     min-width: 280px;
@@ -335,7 +335,7 @@ main {
 .hostingLinkDisplayMore {
     font-size: 0.9rem;
     font-weight: 500;
-    margin: 1.2em 0 0 0;
+    margin: 2em 0 0 0;
     padding-bottom: 2rem;
 }
 
@@ -348,7 +348,7 @@ main {
 .popularSection {
     background-color: var(--greyBackgd);
     border-radius: 2%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     grid-area: popular;
     padding: 0 2rem;
     display: flex;
@@ -383,7 +383,7 @@ main {
    flex-direction: column;
    align-items: center;
    row-gap: 1.8rem;
-   border: 1px solid red;
+   /* border: 1px solid red; */
    min-width: 85%;
   
 }
@@ -443,7 +443,7 @@ main {
 .activitySection {
     grid-area: activity;
     width: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     max-width: 1500px;
     margin:auto;
     margin-top: 50px;
@@ -462,7 +462,7 @@ main {
     justify-content: space-between;
     width: 100%;
     margin: auto;
-    border: 1px solid olive;
+    /* border: 1px solid olive; */
     
 }
 
@@ -484,7 +484,7 @@ main {
 .activityCard_1 {
     max-width: 22%;
     min-width: 340px;
-    border: 3px solid rgba(52, 163, 207, 0.842);
+    /* border: 3px solid rgba(52, 163, 207, 0.842); */
 }
 
 .activityImg_1 {
