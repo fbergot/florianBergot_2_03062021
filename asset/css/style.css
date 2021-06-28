@@ -655,7 +655,13 @@ main {
 }
 
 @media screen and (max-width: 1300px) {
+    .header {
+        width: 98%;
 
+    }
+    main {
+        width: 98%;
+    }
     .hostingPopularAndActivityContainer {
         margin-top: 1.3rem;
         display: grid;
