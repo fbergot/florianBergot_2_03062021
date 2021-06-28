@@ -472,8 +472,10 @@ main {
 .activityContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 1.8rem;
+    justify-content: center;
     width: 100%;
+    max-height: 500px;
     margin: auto;
     /* border: 1px solid olive; */
     
@@ -493,22 +495,34 @@ main {
 
 .activityLinkImg {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .activityImgContainer {
     width: 100%;
-    height: auto;
+    height: 90%;
+}
+
+.activityImgContainer2 {
+    width: 100%;
+    height: 81%;
+}
+
+.activityImgContainer3 {
+    width: 100%;
+    height: 70%;
 }
 
 .activityCard_1 {
-    max-width: 22%;
-    min-width: 340px;
+    max-width: 25%;
+    width: 23%;
+    min-width: 20%;
+    max-height: 480px;
     /* border: 3px solid rgba(52, 163, 207, 0.842); */
 }
 
 .activityImg_1 {
     width: 100%;
-    height: 360px;
+    height: 100%;
     border-radius: .7rem .7rem 0 0 ;
     object-fit: cover; 
 }
@@ -518,41 +532,47 @@ main {
     flex-direction: column;
     justify-content: space-between;
     max-width: 25%;
-    min-width: 340px;
+    width: 23%;
+    min-width: 20%;
+    max-height: 480px;
+    
 
 }
 
 .activityCard_2 {
-    
+    max-height: 55%;
+
 }
 
 .activityImg_2 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
-    height: 130px;
+    height: 100%;
     object-fit: cover;
 }
 
 .activityCard_3 {
-
+    max-height: 35%;
 }
 .activityImg_3 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
-    height: 130px;
+    height: 100%;
     object-fit: cover;
 }
 
 .activityCard_4 {
-    max-width: 22%;
-    min-width: 340px;
+    max-width: 25%;
+    min-width: 20%;
+    width: 23%;
+    max-height: 480px;
 
 }
 
 .activityImg_4 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
-    height: 360px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -562,27 +582,31 @@ main {
     flex-direction: column;
     justify-content: space-between;
     max-width: 25%;
-    min-width: 340px;
+    min-width: 20%;
+    width: 23%;
+    max-height: 480px;
 }
 .activityCard_5 {
-
+    
+    max-height: 35%;
 }
 
 .activityImg_5 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
-    height: 130px;
+    height: 100%;
     object-fit: cover;
 }
 
 .activityCard_6 {
+    max-height: 55%;
     
 }
 
 .activityImg_6 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
-    height: 130px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -629,7 +653,7 @@ main {
     transition:  text-decoration .5s;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1300px) {
 
     .hostingPopularAndActivityContainer {
         margin-top: 1.3rem;
