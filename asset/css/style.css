@@ -294,6 +294,7 @@ main {
     border: 7px solid #FFF;
     border-radius: 1rem;
     max-width: 31.5%;
+    /* width: 30%; */
     min-width: 30.5%;
     background-color: #FFF;
     z-index: 3; 
@@ -613,7 +614,7 @@ main {
 .activityText {
     font-size: 1rem;
     font-weight: 700;
-    margin: 1em 0.5em; 
+    margin: 1em 0 1em 0.5em; 
 }
 
 /* footer */
@@ -689,12 +690,13 @@ main {
         column-gap: 1.8rem;
    }
    .hostingCard {
-    /* max-width: 33.33%; */
-    width: 31.5%;
-    min-width: 30%;
-    max-width: 31.5%;
-    background-color: #FFF;
-    z-index: 3; 
-    box-shadow: 5px 5px 5px rgb(185, 183, 183); 
+        
+        width: 31%;
+        min-width: 28%;
+        max-width: 31%;
+        flex-grow: 1;
+        background-color: #FFF;
+        z-index: 3; 
+        box-shadow: 5px 5px 5px rgb(185, 183, 183); 
 }
 }
