@@ -42,7 +42,7 @@ a {
     grid-template-columns: auto 1fr auto  auto;
     grid-template-areas: "img img nav link";
     max-width: 1500px;
-    width: 88%;
+    width: 94%;
     margin: auto;
 }
 
@@ -93,7 +93,7 @@ a {
 main {
     max-width: 1500px;
     margin: auto;
-    width: 88%;
+    width: 94%;
 }
 /* section search */
 .searchHeaderTitle {
@@ -400,7 +400,7 @@ main {
     border: 7px solid #FFF;
     width: 100%;
     max-width: 100%;
-    height: 145px ;
+    height: 135.5px ;
     min-width: 30%;
     background-color: #FFF;
     box-shadow: 5px 5px 5px rgb(185, 183, 183);    
@@ -517,7 +517,7 @@ main {
     max-width: 25%;
     width: 23%;
     min-width: 20%;
-    max-height: 480px;
+    height: 480px;
     /* border: 3px solid rgba(52, 163, 207, 0.842); */
 }
 
@@ -535,13 +535,13 @@ main {
     max-width: 25%;
     width: 23%;
     min-width: 20%;
-    max-height: 480px;
+    height: 480px;
     
 
 }
 
 .activityCard_2 {
-    max-height: 55%;
+    height: 55%;
 
 }
 
@@ -566,7 +566,7 @@ main {
     max-width: 25%;
     min-width: 20%;
     width: 23%;
-    max-height: 480px;
+    height: 480px;
 
 }
 
@@ -589,7 +589,7 @@ main {
 }
 .activityCard_5 {
     
-    max-height: 35%;
+    height: 35%;
 }
 
 .activityImg_5 {
@@ -600,7 +600,7 @@ main {
 }
 
 .activityCard_6 {
-    max-height: 55%;
+    height: 55%;
     
 }
 
@@ -620,12 +620,13 @@ main {
 /* footer */
 
 .footer {
-    max-width: 1500px;
+    width: 100%;
+    max-width: 1600px;
     margin:auto;
     background-color: var(--greyBackgd);
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 1rem;
-    margin-bottom: 5px;
+    
 }
 
 .footerContainer {
@@ -654,14 +655,37 @@ main {
     transition:  text-decoration .5s;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
+
     .header {
         width: 98%;
 
     }
+
     main {
         width: 98%;
     }
+
+    /* popularSection */
+
+    .popularSection {
+         width: 100%;
+         max-width: 100%;
+         margin-left: 0;
+    }
+    
+    .popularContainer {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         column-gap: 1.8rem;
+         min-width: 85%;
+         margin-bottom: 3rem;
+         
+    }
+
+    /* hostingSection */
+
     .hostingPopularAndActivityContainer {
         margin-top: 1.3rem;
         display: grid;
@@ -671,21 +695,6 @@ main {
                             "activity activity activity";
     }
 
-   .popularSection {
-        width: 100%;
-        max-width: 100%;
-        margin-left: 0;
-   }
-   
-   .popularContainer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        column-gap: 1.8rem;
-        min-width: 85%;
-        margin-bottom: 3rem;
-        
-   }
 
    .hostingSection {
       margin-top: 30px;
@@ -695,6 +704,7 @@ main {
         justify-content: center;
         column-gap: 1.8rem;
    }
+
    .hostingCard {
         
         width: 31%;
@@ -704,5 +714,41 @@ main {
         background-color: #FFF;
         z-index: 3; 
         box-shadow: 5px 5px 5px rgb(185, 183, 183); 
-}
+    }
+
+    /* activitySection */
+
+    .activityContainer {
+        max-height: 1000px;
+        justify-content: space-between;
+        row-gap: 1.8rem;
+    }
+
+    .activityCard_1 {
+        
+        width: 50%;
+        min-width: 48.5%;
+        height: 480px;
+    }
+
+    .activityContainer-Img2-Img3 {
+       
+        width: 50%;
+        min-width: 48.5%;
+        height: 480px;
+    }
+    
+    .activityCard_4 {
+        order: 4;
+        width: 50%;
+        min-width: 48.5%;
+        height: 480px;
+    }
+
+    .activityContainer-Img5-Img6 {
+        order: 3;
+        width: 50%;
+        min-width: 48.5%;
+        height: 480px;
+    }
 }
