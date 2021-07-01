@@ -656,12 +656,12 @@ main {
 @media screen and (max-width: 1213px) {
 
     .header {
-        width: 98%;
+        width: 100%;
 
     }
 
     main {
-        width: 98%;
+        width: 100%;
     }
 
     /* popularSection */
@@ -759,27 +759,26 @@ main {
 
     .activityCard_1 {
         
-        width: 50%;
-        min-width: 48%;
+        width: 48%;
+        /* min-width: 48%; */
 
     }
 
     .activityContainer-Img2-Img3 {
-        width: 50%;       
-        min-width: 48%;
+        width: 48%;       
+        /* min-width: 48%; */
 
     }
     
     .activityCard_4 {
-        width: 50%;
-        min-width: 48%;
+        width: 48%;
+        /* min-width: 48%; */
 
     }
 
     .activityContainer-Img5-Img6 {
-        width: 50%;
-        min-width: 48%;
-
+        width: 48%;
+        /* min-width: 48%; */
     }
 }
 
