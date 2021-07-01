@@ -282,8 +282,9 @@ main {
 .hostingCardContainer {   
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
     column-gap: 1.8rem;
     row-gap: 1.8rem;
     /* border: 1px solid blue; */
@@ -474,12 +475,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     column-gap: 1.8rem;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     max-height: 500px;
     margin: auto;
-    /* border: 1px solid olive; */
-    
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* border: 1px solid olive; */   
 }
 
 .activityContainer article {
@@ -498,6 +500,7 @@ main {
     width: 100%;
     height: 100%;
 }
+
 .activityImgContainer {
     width: 100%;
     height: 90%;
@@ -516,7 +519,7 @@ main {
 .activityCard_1 {
     max-width: 25%;
     width: 23%;
-    min-width: 20%;
+    /* min-width: 20%; */
     height: 480px;
     /* border: 3px solid rgba(52, 163, 207, 0.842); */
 }
@@ -534,15 +537,12 @@ main {
     justify-content: space-between;
     max-width: 25%;
     width: 23%;
-    min-width: 20%;
-    height: 480px;
-    
-
+    /* min-width: 20%; */
+    height: 480px;    
 }
 
 .activityCard_2 {
     height: 55%;
-
 }
 
 .activityImg_2 {
@@ -555,6 +555,7 @@ main {
 .activityCard_3 {
     max-height: 35%;
 }
+
 .activityImg_3 {
     border-radius: .7rem .7rem 0 0 ; 
     width: 100%;
@@ -564,10 +565,9 @@ main {
 
 .activityCard_4 {
     max-width: 25%;
-    min-width: 20%;
+    /* min-width: 20%; */
     width: 23%;
     height: 480px;
-
 }
 
 .activityImg_4 {
@@ -583,10 +583,11 @@ main {
     flex-direction: column;
     justify-content: space-between;
     max-width: 25%;
-    min-width: 20%;
+    /* min-width: 20%; */
     width: 23%;
     max-height: 480px;
 }
+
 .activityCard_5 {
     
     height: 35%;
@@ -655,7 +656,7 @@ main {
     transition:  text-decoration .5s;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (min-width: 765px) and (max-width: 1213px) {
 
     .header {
         width: 98%;
@@ -703,14 +704,15 @@ main {
    .hostingCardContainer {
         justify-content: center;
         column-gap: 1.8rem;
+        min-width: 85%;
    }
 
-   .hostingCard {
-        
-        width: 31%;
+   .hostingCard {       
+        /* width: 31.5%; */
         min-width: 28%;
-        max-width: 31%;
+        max-width: 31.5%;
         flex-grow: 1;
+        flex-shrink: 1;
         background-color: #FFF;
         z-index: 3; 
         box-shadow: 5px 5px 5px rgb(185, 183, 183); 
@@ -722,32 +724,33 @@ main {
         max-height: 1000px;
         justify-content: space-between;
         row-gap: 1.8rem;
+        
     }
 
     .activityCard_1 {
         
-        width: 50%;
+        /* width: 50%; */
         min-width: 48.5%;
         height: 480px;
     }
 
     .activityContainer-Img2-Img3 {
        
-        width: 50%;
+        /* width: 50%; */
         min-width: 48.5%;
         height: 480px;
     }
     
     .activityCard_4 {
         order: 4;
-        width: 50%;
+        /* width: 50%; */
         min-width: 48.5%;
         height: 480px;
     }
 
     .activityContainer-Img5-Img6 {
         order: 3;
-        width: 50%;
+        /* width: 50%; */
         min-width: 48.5%;
         height: 480px;
     }
