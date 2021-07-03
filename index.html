@@ -18,7 +18,7 @@
         <img class="imgHeader" src="./asset/logo/Reservia.svg" alt="logo de réservia">
         <nav class="navbarHeader">
             <a class="linkHeader" data-active="true" href="#hosting">Hébergements</a>
-            <a class="linkHeader" href="#activity">Activités</a>
+            <a class="linkHeader" data-active="false" href="#activity">Activités</a>
         </nav>
         <a class="register" href="#">S'inscrire</a> 
     </header>
@@ -38,7 +38,10 @@
                         <i class="fas fa-map-marker-alt searchIcone"></i>
                     </span>
                     <input name="search" value="Marseille, France" type="search" class="searchInput">
-                    <button class="searchButton" type="submit">Rechercher</button>
+                    <button class="searchButton" type="submit">
+                        <span>Rechercher</span>
+                        <i class="fas fa-search searchIconButton"></i>
+                    </button>
                 </form>
             </div>
 
