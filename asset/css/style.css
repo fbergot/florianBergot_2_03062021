@@ -667,6 +667,10 @@ main {
         width: 100%;
     }
 
+    .searchIconButton {
+        display: none;
+    }
+
     /* popularSection */
 
     .popularSection {
@@ -763,6 +767,10 @@ main {
 @media screen and (max-width: 980px) {
     
 
+    .searchIconButton {
+        display: none;
+    }
+
     /* popularSection */
     
     .popularSection {
@@ -811,6 +819,10 @@ main {
 
     .searchFilterP {
         padding-bottom: 0.5em ;
+    }
+
+    .searchIconButton {
+        display: none;
     }
 
     .searchWrapperButton {
@@ -953,58 +965,52 @@ main {
         padding: .2em 0 0 .3em;
     }
 
-    
-
     .activityCard_1 {
-        
-        /* width: 50%; */
         min-width: 98%;
         height: 213px;
     }
 
     .activityCard_2 {
-        height: 45%;
+        height: 46.5%;
         min-height: 46.5%;
     }
 
     .activityCard_3 {
-        height: 45%;
+        height: 46.5%;
         min-height: 46.5%;
     }
 
     .activityContainer-Img2-Img3 {
        
-        /* width: 50%; */
         min-width: 98%;
         height: 450px;
     }
     
     .activityCard_4 {
         order: 3;
-        /* width: 50%; */
         min-width: 98%;
         height: 213px;
     }
 
     .activityCard_5 {   
-        height: 45%;
+        height: 46.5%;
         min-height: 46.5%;
 
     }
 
     .activityCard_6 {
-        height: 45%;
+        height: 46.5%;
         min-height: 46.5%;
     }
 
     .activityContainer-Img5-Img6 {
         order: 4;
-        /* width: 50%; */
         min-width: 98%;
         height: 450px;
     }
 
     /* footer */
+
     .footerContainer {
         flex-direction: column;
         margin-bottom: 0;
@@ -1013,7 +1019,6 @@ main {
     .footerBloc {
         margin-bottom: 20px;
         width: 100%;
-        display: flex;
-        flex-direction: column;
+
     }
 }
