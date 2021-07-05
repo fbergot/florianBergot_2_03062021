@@ -148,6 +148,7 @@ main {
 }
 
 .searchButton:hover{
+
     cursor: pointer;
     background-color: #043681;
     transition: background-color.3s;
@@ -182,6 +183,8 @@ main {
 }
 
 .searchDivButton:hover {
+    transition: .3s;
+    background-color: rgba(172, 169, 169,.3);
     cursor: pointer;
 }
 
