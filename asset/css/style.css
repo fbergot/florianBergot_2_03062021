@@ -224,31 +224,39 @@ main {
 
 .searchAvailable {
     margin-top: 1.3rem;
-}
-
-.searchAvailableP {
-    display: inline-block;
+    display: flex;
 }
 
 .searchAvailableBubble{
     width: 20px;
     height: 20px;
-    padding: 0.25em 0.5em;
+    padding: .75em 0.85em 0.75em .65em;
     border: 1px solid var(--greyBackgd);
     border-radius: 50%;
     text-align: center;
+
+
+    
 }
 
 .availableIcon {
+
     color: var(--darkBlue);
     font-size: 0.8em;
-    padding: 0.2em;
+    padding: 0.2em 0.5em .5em -.3em;
+    margin-bottom: 2em;
+    transform: translateX(-75%);
+    transform: translateY(-8px);
 }
 
 .searchAvailableInfo {
-    display: inline;
+    /* display: inline; */
     font-size: 0.9rem;
     margin-left: 0.3em;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
 }
 
 /* container of sections */
@@ -829,6 +837,9 @@ main {
         margin: 0;
     }
 
+    .searchDivButton {
+        margin: .4em 0;
+    }
     /* popularSection */
 
     .popularSection {
