@@ -303,7 +303,7 @@ main {
     width: 30.5%;
     min-width: 30.5%;
     background-color: rgba(255,255,255,1);
-    box-shadow: 5px 5px 5px rgb(185, 183, 183); 
+    box-shadow: 2px 2px 4px rgb(236, 233, 233), -2px -2px 4px rgb(236, 233, 233); 
 }
 
 .hostingCard:hover {
@@ -406,7 +406,7 @@ main {
     height: 135.5px ;
     min-width: 30%;
     background-color: rgba(255,255,255,1);
-    box-shadow: 5px 5px 5px rgb(185, 183, 183);    
+    box-shadow: 2px 2px 4px rgb(236, 233, 233), -2px -2px 4px rgb(236, 233, 233);   
 }
 
 .popularCard:hover {
@@ -486,7 +486,7 @@ main {
 .activityContainer article {
     
     border-radius: 1rem;
-    box-shadow: 5px 5px 5px rgb(185, 183, 183);
+    box-shadow: 2px 2px 4px rgb(236, 233, 233);
 
 }
 
