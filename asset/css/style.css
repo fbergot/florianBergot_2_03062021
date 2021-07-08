@@ -535,7 +535,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* max-width: 25%; */
     width: 23.05%;
     height: 450px;    
 }
@@ -563,7 +562,6 @@ main {
 }
 
 .activityCard_4 {
-    /* max-width: 25%; */
     width: 23.05%;
     height: 450px;
 }
@@ -580,13 +578,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* max-width: 25%; */
     width: 23.05%;
     max-height: 450px;
 }
 
-.activityCard_5 {
-    
+.activityCard_5 {    
     height: 35%;
 }
 
@@ -598,8 +594,7 @@ main {
 }
 
 .activityCard_6 {
-    height: 55%;
-    
+    height: 55%;   
 }
 
 .activityImg_6 {
@@ -682,8 +677,7 @@ main {
          align-items: center;
          column-gap: 1.8rem;
          min-width: 85%;
-         margin-bottom: 3rem;
-         
+         margin-bottom: 3rem;        
     }
 
     /* hostingSection */
@@ -726,34 +720,27 @@ main {
         width: 100%;
         justify-content: space-evenly;
         row-gap: 1.8rem;
-        column-gap: 1.8rem;
-        
+        column-gap: 1.8rem;       
     }
 
     .activityCard_1 {
-        
-        /* width: 50%; */
         min-width: 48.3%;
         height: 450px;
     }
 
     .activityContainer-Img2-Img3 {
-       
-        /* width: 50%; */
         min-width: 48.3%;
         height: 450px;
     }
     
     .activityCard_4 {
         order: 4;
-        /* width: 50%; */
         min-width: 48.3%;
         height: 450px;
     }
 
     .activityContainer-Img5-Img6 {
         order: 3;
-        /* width: 50%; */
         min-width: 48.3%;
         height: 450px;
     }
@@ -853,11 +840,7 @@ main {
     .hostingCard {
         width: 47.5%;
         min-width: 47.5%;
-    }
-
-    
-
-   
+    }  
 }
 
 @media screen and (max-width: 660px) {
@@ -910,6 +893,7 @@ main {
     .searchSection {
         margin-top: 15px;
     }
+    
     .searchButton {
         border-radius: 1rem 1rem 1rem 1rem;
         padding: 14px;
