@@ -3,6 +3,7 @@
     --clearBlue: #DEEBFF;
     --greyBackgd : #F2F2F2;
     --starsGrey : #c2bdbdb0;
+    --hoverBlue : #144999;
     --fontRlw : 'Raleway', sans-serif;
 }
 
@@ -39,7 +40,7 @@ a {
     align-items: center;
     grid-template-columns: auto 1fr auto  auto;
     grid-template-areas: "img img nav link";
-    width: 96%;
+    width: 97%;
     margin: auto;
 }
 
@@ -80,13 +81,12 @@ a[data-active='true']{
 
 .register:hover {
     transition: color .3s;
-    color: #043681;
+    color: var(--hoverBlue);
 
 }
 
 /*-------------------------main------------------------- */
 main {
-    /* max-width: 1500px; */
     margin: auto;
     width: 97%;
 }
@@ -146,9 +146,8 @@ main {
 }
 
 .searchButton:hover{
-
     cursor: pointer;
-    background-color: #043681;
+    background-color: var(--hoverBlue);
     transition: background-color.3s;
 }
 
@@ -893,7 +892,7 @@ main {
     .searchSection {
         margin-top: 15px;
     }
-    
+
     .searchButton {
         border-radius: 1rem 1rem 1rem 1rem;
         padding: 14px;
