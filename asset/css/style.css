@@ -39,7 +39,6 @@ a {
     align-items: center;
     grid-template-columns: auto 1fr auto  auto;
     grid-template-areas: "img img nav link";
-    max-width: 1500px;
     width: 96%;
     margin: auto;
 }
@@ -88,7 +87,7 @@ a[data-active='true']{
 
 /*-------------------------main------------------------- */
 main {
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: auto;
     width: 96%;
 }
@@ -236,14 +235,10 @@ main {
     padding: .75em 0.85em 0.75em .65em;
     border: 1px solid var(--greyBackgd);
     border-radius: 50%;
-    text-align: center;
-
-
-    
+    text-align: center;   
 }
 
 .availableIcon {
-
     color: var(--darkBlue);
     font-size: 0.8em;
     padding: 0.2em 0.5em .5em -.3em;
@@ -253,7 +248,6 @@ main {
 }
 
 .searchAvailableInfo {
-    /* display: inline; */
     font-size: 0.9rem;
     margin-left: 0.3em;
     justify-content: center;
@@ -265,6 +259,7 @@ main {
 /* container of sections */
 
 .hostingPopularAndActivityContainer {
+    margin: auto;
     margin-top: 1.3rem;
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
@@ -278,7 +273,6 @@ main {
     background-color: var(--greyBackgd);
     grid-area: hosting;
     border-radius: 15px;
-    /* border: 1px solid green; */
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -300,7 +294,6 @@ main {
     flex-shrink: 1;
     column-gap: 1.8rem;
     row-gap: 1.8rem;
-    /* border: 1px solid blue; */
 }
 
 .hostingCard {
@@ -370,13 +363,11 @@ main {
 .popularSection {
     background-color: var(--greyBackgd);
     border-radius: 15px;
-    /* border: 1px solid blue; */
     grid-area: popular;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    max-width: 470px;
+    max-width: 100%;
     margin-left: 20px;
 }
 
@@ -405,7 +396,6 @@ main {
    flex-direction: column;
    align-items: center;
    row-gap: 1.8rem;
-   /* border: 1px solid red; */
    min-width: 85%;
   
 }
@@ -464,7 +454,6 @@ main {
 
 .popularStarDiv {
     padding: .3em .8em;
-
 }
 
 /* activitySection */
@@ -472,8 +461,6 @@ main {
 .activitySection {
     grid-area: activity;
     width: 100%;
-    /* border: 1px solid yellow; */
-    max-width: 1500px;
     margin:auto;
     margin-top: 50px;
 }
