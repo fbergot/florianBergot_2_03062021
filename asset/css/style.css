@@ -13,7 +13,8 @@
 
 
 body {
-    font-family: var(--fontRlw);       
+    font-family: var(--fontRlw);
+    background-color: rgba(255,255,255,1);       
 }
 
 
@@ -239,7 +240,7 @@ main {
 .availableIcon {
     color: var(--darkBlue);
     font-size: 0.8em;
-    padding: 0.2em 0.5em .5em -.3em;
+    padding: 0.2em 0.5em .5em 0;
     margin-bottom: 2em;
     transform: translateX(-75%);
     transform: translateY(-8px);
@@ -301,7 +302,7 @@ main {
     max-width: 31.5%;
     width: 30.5%;
     min-width: 30.5%;
-    background-color: #FFF;
+    background-color: rgba(255,255,255,1);
     z-index: 3; 
     box-shadow: 5px 5px 5px rgb(185, 183, 183); 
 }
@@ -405,7 +406,7 @@ main {
     max-width: 100%;
     height: 135.5px ;
     min-width: 30%;
-    background-color: #FFF;
+    background-color: rgba(255,255,255,1);
     box-shadow: 5px 5px 5px rgb(185, 183, 183);    
 }
 
