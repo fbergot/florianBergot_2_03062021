@@ -45,7 +45,6 @@ a {
 
 .imgHeader {
     grid-area: img;
-    padding: 0 0.5rem;
 }
 
 .navbarHeader {
@@ -89,7 +88,7 @@ a[data-active='true']{
 main {
     /* max-width: 1500px; */
     margin: auto;
-    width: 96%;
+    width: 97%;
 }
 
 /* section search */
