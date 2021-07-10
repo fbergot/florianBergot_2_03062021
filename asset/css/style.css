@@ -630,15 +630,13 @@ main {
         min-width: 85%;
    }
 
-   .hostingCard {       
-        
+   .hostingCard {              
         min-width: 28%;
         max-width: 31.5%;
         flex-grow: 1;
         flex-shrink: 1;
         background-color: #FFF;
         z-index: 3; 
-        box-shadow: 5px 5px 5px rgb(185, 183, 183); 
     }
 
     /* activitySection */
@@ -651,12 +649,7 @@ main {
         column-gap: 1.8rem;       
     }
 
-    .activityCard_1 {
-        min-width: 48.3%;
-        height: 450px;
-    }
-
-    .activityContainer-Img2-Img3 {
+    .activityCard_1,.activityContainer-Img2-Img3 {
         min-width: 48.3%;
         height: 450px;
     }
