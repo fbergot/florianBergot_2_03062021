@@ -11,13 +11,10 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: var(--fontRlw);
     background-color: rgba(255,255,255,1);       
 }
-
-
 
 /* stars colors */
 i[data-selected="true"] {
@@ -123,7 +120,6 @@ main {
 .searchInput {
     padding: 0.8rem 1rem;
     border-top: 1px solid var(--greyBackgd);
-    border-left: 1px solid var(--greyBackgd);
     border-bottom: 1px solid var(--greyBackgd);
     font-weight: 700;
     border-right: none;
@@ -198,12 +194,6 @@ main {
     text-align: center;
     
 }
-
-.searchBubble:hover {
-    background-color: #9ebbe6;
-    transition: background-color .3s;
-}
-
 
 .searchP {
     display: inline;
@@ -295,15 +285,14 @@ main {
     row-gap: 1.8rem;
 }
 
-.hostingCard {
-    
+.hostingCard {   
     border: 6px solid #FFF;
     border-radius: 1rem;
     max-width: 31.5%;
     width: 30.5%;
     min-width: 30.5%;
     background-color: rgba(255,255,255,1);
-    box-shadow: 2px 2px 4px rgb(236, 233, 233), -2px -2px 4px rgb(236, 233, 233); 
+    box-shadow: 3px 3px 4px rgb(236, 233, 233), -3px -3px 4px rgb(236, 233, 233); 
 }
 
 .hostingCard:hover {
@@ -406,7 +395,7 @@ main {
     height: 135.5px ;
     min-width: 30%;
     background-color: rgba(255,255,255,1);
-    box-shadow: 2px 2px 4px rgb(236, 233, 233), -2px -2px 4px rgb(236, 233, 233);   
+    box-shadow: 3px 3px 4px rgb(236, 233, 233), -3px -3px 4px rgb(236, 233, 233);   
 }
 
 .popularCard:hover {
@@ -486,7 +475,7 @@ main {
 .activityContainer article {
     
     border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgb(236, 233, 233);
+    box-shadow: 3px 3px 4px rgb(236, 233, 233);
 
 }
 
@@ -515,22 +504,12 @@ main {
     height: 70%;
 }
 
-.activityCard_1 {
-    max-width: 25%;
+.activityCard_1, .activityCard_4 {
     width: 23.05%;
-    /* min-width: 20%; */
     height: 450px;
-    /* border: 3px solid rgba(52, 163, 207, 0.842); */
 }
 
-.activityImg_1 {
-    width: 100%;
-    height: 100%;
-    border-radius: .7rem .7rem 0 0 ;
-    object-fit: cover; 
-}
-
-.activityContainer-Img2-Img3 {
+.activityContainer-Img2-Img3, .activityContainer-Img5-Img6{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -538,66 +517,16 @@ main {
     height: 450px;    
 }
 
-.activityCard_2 {
+.activityCard_2, .activityCard_6  {
     height: 55%;
 }
 
-.activityImg_2 {
-    border-radius: .7rem .7rem 0 0 ; 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.activityCard_3 {
+.activityCard_3, .activityCard_5 {
     max-height: 35%;
 }
 
-.activityImg_3 {
-    border-radius: .7rem .7rem 0 0 ; 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.activityCard_4 {
-    width: 23.05%;
-    height: 450px;
-}
-
-.activityImg_4 {
-    border-radius: .7rem .7rem 0 0 ; 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.activityContainer-Img5-Img6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 23.05%;
-    max-height: 450px;
-}
-
-.activityCard_5 {    
-    height: 35%;
-}
-
-.activityImg_5 {
-    border-radius: .7rem .7rem 0 0 ; 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.activityCard_6 {
-    height: 55%;   
-}
-
-.activityImg_6 {
-    border-radius: .7rem .7rem 0 0 ; 
+.activityImg_1,.activityImg_2,.activityImg_3,.activityImg_4,.activityImg_5,.activityImg_6  {
+    border-radius: .7rem .7rem 0 0 ;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -768,25 +697,16 @@ main {
 
     /* activitySection */
 
-    .activityCard_1 {        
+    .activityCard_1,.activityCard_4 {        
         width: 47.75%;
         min-width: 47.75%;
     }
 
-    .activityContainer-Img2-Img3 {
+    .activityContainer-Img2-Img3,.activityContainer-Img5-Img6 {
         width: 47.75%;       
         min-width: 47.75%;
     }
     
-    .activityCard_4 {
-        width: 47.75%;
-        min-width: 47.75%;
-    }
-
-    .activityContainer-Img5-Img6 {
-        width: 47.75%;
-        min-width: 47.75%;
-    }
 }
 
 
@@ -953,18 +873,7 @@ main {
         height: 213px;
     }
 
-    .activityCard_2 {
-        height: 46.5%;
-        min-height: 46.5%;
-    }
-
-    .activityCard_3 {
-        height: 46.5%;
-        min-height: 46.5%;
-    }
-
-    .activityContainer-Img2-Img3 {
-       
+    .activityContainer-Img2-Img3 {      
         min-width: 98%;
         height: 450px;
     }
@@ -975,15 +884,10 @@ main {
         height: 213px;
     }
 
-    .activityCard_5 {   
+    .activityCard_2,.activityCard_3,.activityCard_5, .activityCard_6{   
         height: 46.5%;
         min-height: 46.5%;
 
-    }
-
-    .activityCard_6 {
-        height: 46.5%;
-        min-height: 46.5%;
     }
 
     .activityContainer-Img5-Img6 {
